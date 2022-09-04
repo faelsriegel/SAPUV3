@@ -1,0 +1,1429 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Cairo", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #5fcf80;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #86db9f;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cairo", sans-serif;
+}
+
+/*--------------------------------------------------------------
+Botão para subir ao topo - canto inferior direito
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 990;
+  background: #5fcf80;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #7ed899;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+Logo de Carregamento - Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #fff;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #5fcf80;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+#header {
+  background: #fff;
+  transition: all 1s;
+  z-index: 997;
+  padding: 4.5px 0;
+  box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+}
+
+/*--------------------------------------------------------------
+Logo do Header
+--------------------------------------------------------------*/
+#header .logo img {
+  max-height: 72px;
+}
+
+/*--------------------------------------------------------------
+Botão de Acessar Conta do Header
+--------------------------------------------------------------*/
+.get-started-btn {
+  margin-left: 22px;
+  background: #5fcf80;
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 25px;
+  transition: 0.8s;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
+  border: 2px solid #fffcfc;
+
+}
+
+.get-started-btn:hover {
+  background: #fffcfc;
+  color: #5fcf80;
+  border-bottom: #0c0c0c;
+  border: 2px solid #5fcf80;
+  
+}
+
+@media (max-width: 768px) {
+  .get-started-btn {
+    margin: 0 15px 0 0;
+    padding: 6px 18px;
+  }
+}
+/*--------------------------------------------------------------
+Menu - NavBar - Desktop
+--------------------------------------------------------------*/
+.navbar {
+  padding: 0;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navbar li {
+  position: relative;
+}
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Cairo", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #37423b;
+  white-space: nowrap;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #1C3268;
+}
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 30px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: rgb(19, 18, 18);
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+}
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: none;
+  font-weight: 500;
+}
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+  color: #5fcf80;
+}
+.navbar .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+.navbar .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+.navbar .dropdown .dropdown:hover > ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+  .navbar .dropdown .dropdown:hover > ul {
+    left: -100%;
+  }
+}
+
+/*--------------------------------------------------------------
+Menu Mobile - NavBar
+--------------------------------------------------------------*/
+.mobile-nav-toggle {
+  color: #37423b;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+.mobile-nav-toggle.bi-x {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+}
+.navbar-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(32, 38, 34, 0.9);
+  transition: 0.3s;
+  z-index: 999;
+}
+.navbar-mobile .mobile-nav-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.navbar-mobile ul {
+  display: block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 0;
+  border-radius: 6px;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.3s;
+}
+.navbar-mobile a, .navbar-mobile a:focus {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #37423b;
+}
+.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+  color: #5fcf80;
+}
+.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+  margin: 15px;
+}
+.navbar-mobile .dropdown ul {
+  position: static;
+  display: none;
+  margin: 10px 20px;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 1;
+  visibility: visible;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+.navbar-mobile .dropdown ul li {
+  min-width: 200px;
+}
+.navbar-mobile .dropdown ul a {
+  padding: 10px 20px;
+}
+.navbar-mobile .dropdown ul a i {
+  font-size: 12px;
+}
+.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+  color: #5fcf80;
+}
+.navbar-mobile .dropdown > .dropdown-active {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+Hero - Seção Principal
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/background1.png") top;
+  background-size: cover;
+  position: relative;
+  background-position-x: 100%;
+}
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#hero .container {
+  padding-top: 72px;
+}
+@media (max-width: 992px) {
+  #hero .container {
+    padding-top: 62px;
+  }
+}
+#hero h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+}
+#hero h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 18px;
+}
+/*--------------------------------------------------------------
+Botão do Hero - Seção Principal
+--------------------------------------------------------------*/
+#hero .btn-get-started {
+  font-size: 16px;
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  /*padding: 10px 35px;*/
+  padding: 8px 25px;
+  border-radius: 50px;
+  transition: 0.8s;
+  margin-top: 30px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+}
+#hero .btn-get-started:hover {
+  background: #5fcf80;
+  border: 2px solid #5fcf80;
+}
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #hero {
+    height: 100vh;
+  }
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  #hero {
+    width: 100%;
+  height: 65vh;
+  background: url("../img/background2.jpg") right;
+  background-size: 1000px;
+  background-position-x: 100%;
+  }
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f6f7f6;
+}
+
+.section-title {
+  padding-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Cairo", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #9ae1af;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Cairo", sans-serif;
+  color: #37423b;
+}
+
+.breadcrumbs {
+  margin-top: 73px;
+  text-align: center;
+  background: #5fcf80;
+  padding: 30px 0;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 63px;
+  }
+}
+
+.breadcrumbs h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.breadcrumbs p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Why Us - Por que nós
+--------------------------------------------------------------*/
+.why-us .content {
+  padding: 54px;
+  background: #5fcf80;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Cairo", sans-serif !important;
+
+}
+
+.why-us .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 27px;
+}
+
+.why-us .content h4 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 27px;
+}
+
+.why-us .icon-boxes .icon-box {
+  text-align: center;
+  background: #fff;
+  padding: 36px 27px;
+  width: 100%;
+  border: 1px solid #eef0ef;
+}
+
+.why-us .icon-boxes .icon-box i {
+  font-size: 28px;
+  padding: 16px;
+  color: #5fcf80;
+  margin-bottom: 27px;
+  background: #ecf9f0;
+  border-radius: 50px;
+}
+
+.why-us .icon-boxes .icon-box h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 0 0;
+  text-align: center;
+  font-family: "Cairo", sans-serif !important;
+}
+
+.why-us .icon-boxes .icon-box p {
+  font-size: 13.5px;
+  margin: 0 0 0 0;
+  text-align: center;
+  font-family: "Cairo", sans-serif !important;
+}
+
+/*--------------------------------------------------------------
+# Cursos Superiores
+--------------------------------------------------------------*/
+.courses .course-item {
+  border-radius: 5px;
+  border: 1px solid #eef0ef;
+  text-align: center;
+  
+}
+
+.courses .course-content {
+  padding: 18px;
+  text-align: center;
+  
+}
+
+.courses .course-content h3 {
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  position: center;
+  font-family: "Cairo", sans-serif !important;
+}
+
+.courses .course-content h3 a {
+  color: #1C3268;
+  transition: 0.3s;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 18px;
+  font-family: "Cairo", sans-serif !important;
+}
+
+.courses .course-content h3 a:hover {
+  color: #47b2e4;
+
+}
+
+.courses .course-content p {
+  font-size: 14px;
+  color: #929292;
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.courses .course-content h4 {
+  font-size: 14px;
+  background: #5fcf80;
+  padding: 7px 14px;
+  color: #fff;
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  position: center;
+}
+
+#devcourses .course-content .img-fluid {
+  max-width: 150px;
+  border-radius: 80px;
+}
+
+.cource-details-tabs .tab-pane.active {
+  -webkit-animation: fadeIn 0.5s ease-out;
+  animation: fadeIn 0.5s ease-out;
+}
+
+
+@media (max-width: 992px) {
+  .cource-details-tabs .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+
+  .cource-details-tabs .nav-link.active {
+    color: #fff;
+    background: #5fcf80;
+  }
+}
+
+.about-sapu .h3{
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.about-sapu .p{
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.about-sapu .ul{
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+# Sobre 1
+--------------------------------------------------------------*/
+#dev .member .h4{
+  font-size: 180px;
+  font-weight: 600;
+  font-family: "Cairo", sans-serif;
+}
+.dev .member {
+  padding-left: 10px;
+  font-size: 16px;
+  color: #3b3b3b;
+  position: center;
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-family: "Cairo", sans-serif;
+}
+
+#dev .img-fluid {
+  max-width: 150px;
+  border-radius: 80px;
+}
+
+
+/*--------------------------------------------------------------
+Sobre 2
+--------------------------------------------------------------*/
+.principio .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+}
+
+.principio .icon-box .icon {
+  margin-bottom: 10px;
+}
+
+.principio .icon-box .icon i {
+  color: #5fcf80;
+  font-size: 54px;
+  transition: 0.3s;
+}
+
+.principio .icon-box h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 21px;
+  text-decoration: none;
+  font-family: "Cairo", sans-serif;
+
+}
+
+.principio .icon-box h4 a {
+  color: #1C3268;
+  transition: ease-in-out 0.3s;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Cairo", sans-serif;
+
+}
+
+.principio .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  text-decoration: none;
+  font-family: "Cairo", sans-serif;
+
+}
+
+.principio .icon-box ul {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: "Cairo", sans-serif;
+}
+
+.principio .icon-box:hover {
+  transform: translateY(-10px);
+}
+
+.principio .icon-box:hover h4 a {
+  color: #47b2e4;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+Planos e Preços
+--------------------------------------------------------------*/
+.pricing .row {
+  padding-top: 10px;
+}
+
+.pricing .box {
+  padding: 60px 40px;
+  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+  background: #fff;
+  height: 100%;
+  border-top: 4px solid #fff;
+  border-radius: 5px;
+}
+
+.pricing h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #37517e;
+}
+
+.pricing h4 {
+  font-size: 42px;
+  color: #5FCF80;
+  font-weight: 600;
+  font-family: "Cairo", sans-serif;
+  margin-bottom: 25px;
+}
+
+.pricing h4 sup {
+  font-size: 25px;
+}
+
+.pricing h4 span {
+  color: #37517e;
+  font-size: 16px;
+  display: block;
+}
+
+.pricing ul {
+  padding: 20px 0;
+  list-style: none;
+  color: #999;
+  text-align: left;
+  line-height: 20px;
+}
+
+.pricing ul li {
+  padding: 10px 0 10px 30px;
+  position: relative;
+  font-size: 14px;
+}
+
+.pricing ul i {
+  color: #5FCF80;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+
+.pricing ul .na {
+  color: #ccc;
+}
+
+.pricing ul .na i {
+  color: #ccc;
+}
+
+.pricing ul .na span {
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.pricing .featured {
+  border-top-color: #5FCF80;
+}
+
+
+@media (max-width: 992px) {
+  .pricing .box {
+    max-width: 60%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .pricing .box {
+    max-width: 80%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .pricing .box {
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+/*--------------------------------------------------------------
+Dúvidas Frequentes
+--------------------------------------------------------------*/
+.faq .faq-list {
+  padding: 0 100px;
+}
+
+.faq .faq-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li+li {
+  margin-top: 15px;
+}
+
+.faq .faq-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-family: "Cairo", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.faq .faq-list p {
+  font-family: "Cairo", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.faq .faq-list .icon-help {
+  font-size: 21px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #5FCF80;
+}
+
+.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+  font-size: 21px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+.faq .faq-list .icon-show {
+  display: none;
+}
+
+.faq .faq-list a.collapsed {
+  color: #37517e;
+  transition: 0.3s;
+}
+
+.faq .faq-list a.collapsed:hover {
+  color: #47b2e4;
+}
+
+.faq .faq-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.faq .faq-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .faq .faq-list {
+    padding: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+Contato
+--------------------------------------------------------------*/
+.contact .info {
+  border-top: 3px solid #5FCF80;
+  border-bottom: 3px solid #5FCF80;
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+}
+
+.contact .info i {
+  font-size: 18px;
+  color: #5FCF80;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #e7f5fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #1C3268;
+}
+
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #1C3268;
+}
+
+.contact .info .email p {
+  padding-top: 5px;
+}
+
+.contact .info .social-links {
+  padding-left: 60px;
+}
+
+.contact .info .social-links a {
+  font-size: 16px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.contact .info .social-links a:hover {
+  background: #5FCF80;
+  color: #fff;
+}
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+  background: #5FCF80;
+  color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 15px 0;
+  background: #f3f5fa;
+  min-height: 40px;
+  margin-top: 72px;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs {
+    margin-top: 68px;
+  }
+}
+
+.breadcrumbs h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #37517e;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 0 10px 0;
+  margin: 0;
+  font-size: 12px;
+}
+
+.breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li+li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #4668a2;
+  content: "/";
+}
+
+/*--------------------------------------------------------------
+Footer
+--------------------------------------------------------------*/
+#footer {
+  font-size: 12px;
+  background: #1C3268;
+  color: #ffffff;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: rgb(245, 245, 245);
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h3 {
+  font-size: 26px;
+  margin: 0 0 10px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #78bb8c;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 0;
+  font-family: "Cairo", sans-serif;
+  color: #484849;
+  text-decoration: none;
+}
+
+#footer .footer-top h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #78bb8c;
+  position: relative;
+  padding-bottom: 12px;
+  text-decoration: none;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #1C3268;
+  font-size: 14px;
+  line-height: 1;
+ 
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #5fcf80;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 16px;
+  display: inline-block;
+  background: #5fcf80;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #5fcf80;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top .logo {
+ width: 180pt;
+}
+
+#footer .footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: rgb(255, 255, 255);
+}
+
+#footer .copyright {
+  float: left;
+  font-size: 14px;
+}
+
+#footer .credits {
+  float: right;
+  font-size: 14px;
+}
+
+#footer .credits a {
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  #footer .footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #footer .copyright, #footer .credits {
+    text-align: center;
+    float: none;
+  }
+
+  #footer .credits {
+    padding-top: 4px;
+  }
+}
+/*--------------------------------------------------------------
+Login
+--------------------------------------------------------------*/
+.body_logon{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.area {
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  padding: 10px;
+}
+.area_recuperar{
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  padding: 10px;            
+}
+.logo{
+  width: 100px;
+  height: auto;
+  align-items: center;
+}
+.gray{
+  color: #999999;
+}
+.padding{
+  padding: 20px;
+}
+h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: "Cairo", sans-serif;
+}
+.mensagem_email{
+  color: #1C3268
+}
+
+body{
+  background-color: #1C3268
+}
+.login{
+  color: rgb(8, 8, 8);
+}
+.login img{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.loginint {
+  height: 150px;
+  width: 250px;
+  background-color: #5FCF80;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  
+}
+.logininformacao{
+  padding-left: 15px;
+}
+.informacoesint{
+  margin-top: 15px;
+  height: 20px;
+  width: 250px;
+  color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.menu a{
+  color: #FFF;
+  text-decoration: none;
+  padding-left: 15px;
+  
+}
+.selecaomoedaint{
+  border-radius: 10px;
+  height: 285px;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #5FCF80;
+  display: flex;
+  justify-content: center  
+}
+textarea {
+  resize: none;
+  width: 90%;
+  height: 50px;
+}
+.menuint{
+  width: 100%;
+}
+.menuint_esq{
+  width: 15%;
+  color: #FFF;
+  background-color: #5FCF80;
+  float: left;
+  border-radius: 5px;
+  margin-top: 16px;
+}
+.menuint_dir{
+  float: right;
+  width: 84%;
+  background-color: #5FCF80;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+.menuint ul{
+  list-style: none;
+  margin: 0px;
+  padding-bottom: 15px;
+  padding: 0px;
+  font-size: 20px;
+  font-family: "Cairo", sans-serif;
+  margin-top: 50px;
+}
+.usuario_logado{
+  color: #FFF;
+  float: right;
+}
+.menuint_esq li:hover {
+  background-color: #5FCF80;
+}
+.mes {
+  padding-left: auto;
+  padding-right: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.cadastros{
+  background-color: #5FCF80;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;  
+}
+.adicionarint{
+  height: 210px;
+  width: 200px;
+  background-color: #5FCF80;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding-left: 15px;  
+}
+.adicionar{
+  color: #FFF;
+}
+.cadastrostr{
+  color: #5FCF80;
+}
+
+.msg_resposta{
+  margin-left: auto;
+  margin-right: auto;
+  color: #5FCF80;
+  display: flex;
+  justify-content: center    
+}
+.editar{
+  color: #FFF;
+}
+.editarint{
+  height: 100px;
+  width: 200px;
+  background-color: #5FCF80;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding-left: 15px;  
+}
+.resultados{
+  width: 100%;
+}
+.resultados_int{
+  width: 100%;
+  background-color: #5FCF80;
+  margin-left: 5px;
+  border-radius: 10px;  
+}
+.selecao_mes{
+  height: 21px;
+  width: 350px;
+  background-color: #5FCF80;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;  
+}
+
+.btn-primary{
+  color:#e7e7e7;
+  background-color: #5FCF80;
+  margin-top: -10pt;
+  margin-bottom: 10pt;
+  font-family: "Cairo", sans-serif;
+}
+
+.btn-primary:hover{
+  color:#5FCF80;;
+  background-color: #ffffff;
+  transition: 0.8s;
+}
+
+.esqueci{
+  margin-top: 10pt;
+}
+
+.informe{
+  color:#e7e7e7;
+}
+
+.logo_menu_int{
+  width: 80px;
+  align-items: center;
+  margin-left: 20pt;
+  margin-top: 10pt;
+
+}
