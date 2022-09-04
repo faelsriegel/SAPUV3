@@ -1,4 +1,4 @@
-# SAPU
+# SAPU | Sistema Analítico de Progressão Universitária
 O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste em ser um sistema de cadastro simples da matriz curricular do discente, com o intuito de ser um meio acessível de gestão e controle das diretrizes e grades das instituições de ensino, para o estudante.
 
 - [Equipe de Desenvolvimento](#creators-)
@@ -8,7 +8,7 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 
 |                                                                                                                                                    Author                                                                                                                                                     |                                                                                                                                     Collaborator                                                                                                                                      |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [<img src="https://github.com/faelsriegel.png?size=115" width=115><br><sub>@faelsriegel</sub>](https://github.com/faelsriegel) <br><br> [![](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/faelsriegel) | [<img src="https://github.com/mrhrifat.png?size=250" width=115><br><sub>@mrhrifat</sub>](https://github.com/mrhrifat) <br><br> [![](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mrhrifat) |
+| [<img src="https://github.com/faelsriegel.png?size=115" width=115><br><sub>@faelsriegel</sub>](https://github.com/faelsriegel) <br><br> [![](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/faelsriegel) | [<img src="https://github.com/luizcosta123.png?size=250" width=115><br><sub>@luizcosta123</sub>](https://github.com/luizcosta123) <br><br> [![](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/luizcosta123) |
 
 ## See More Repositories
 
