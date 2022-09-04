@@ -1,13 +1,13 @@
 # SAPU | Sistema Analítico de Progressão Universitária
 O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste em ser um sistema de cadastro simples da matriz curricular do discente, com o intuito de ser um meio acessível de gestão e controle das diretrizes e grades das instituições de ensino, para o estudante.
 <br><br>
-[<img src="http://web.sbs.ifc.edu.br/~rafael.riegel/SAPU/assets/img/logo.png" width=115><br>]
+<img src="http://web.sbs.ifc.edu.br/~rafael.riegel/SAPU/assets/img/logo.png" width=115><br>
 
 - [Equipe de Desenvolvimento](#creators-)
 
 ## Creators [🔝](#welcome-badges-4-readmemd-profile)
 
-[<img src="https://github.com/faelsriegel.png?size=115" width=115><br><sub>@faelsriegel</sub>](https://github.com/faelsriegel) <br> Author
+[<img src="https://github.com/faelsriegel.png?size=115" width=115><br><sub>@faelsriegel</sub>](https://github.com/faelsriegel) <br>Author
 
 [<img src="https://github.com/luizcosta123.png?size=250" width=115><br><sub>@luizcosta123</sub>](https://github.com/luizcosta123) <br>Collaborator  
 
