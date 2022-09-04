@@ -18,9 +18,8 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 | Porque utilizar o SAPU?                                                                                                         | O Sistema Analítico de Progressão Universitária (SAPU) consiste em ser um sistema de cadastro da matriz curricular, com o intuito de ser um meio acessível de gestão e controle das grades das instituições de ensino, para o estudante.                                                                                                                 |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
  Veja seu progresso, do seu jeito.                                                      | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.  |
- Simplifique o controle e faça mais.                                                      | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.  |
- Veja seu progresso, do seu jeito.                                                      | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.  |
- Veja seu progresso, do seu jeito.                                                      | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.  |                                                                                            
+ Simplifique o controle e faça mais.                                                      | Planeje, acompanhe e gerencie a sua matriz curricular, otimizando o processo.  |
+ Defina metas e as cumpra, mais rapidamente.                                                     | Mantenha-se no caminho certo para atingir seus objetivos com metas para conclusão da disciplina.  |                                                                                            
 
 <br><br><br><br>
 
@@ -67,32 +66,3 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 | Badge                                                                                        | URL                                                             |
 | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | <img width='200' src="https://github-profile-trophy.vercel.app/?username=alexandresanlim" /> | `https://github-profile-trophy.vercel.app/?username={username}` |
-
-## ✏ How To Contribute [🔝](#welcome-badges-4-readmemd-profile)
-
-1 - You don't need to make a fork just edit.
-
-2 - Get an icon and hex color from [Simple Icon](https://simpleicons.org/), if you don't find the desired logo, request it [here](https://github.com/simple-icons/simple-icons/issues/new?assignees=&labels=new+icon&template=icon_request.yml).
-
-3 - Build the URL:
-
-```
-https://img.shields.io/badge/{TEXT}-{HEX-COLOR}?style=for-the-badge&logo={LOGO-NAME}&logoColor=white
-```
-
-- {TEXT} = Paste your badge text
-- {HEX-COLOR} = Paste your hex color whithout "#" from Simple Icon
-- {LOGO-NAME} = Logo name from Simple Icon
-
-4 - Paste on category with `Alphabetical` order.
-
-5 - Commit your changes.
-
-## Creators [🔝](#welcome-badges-4-readmemd-profile)
-
-It's only possible because of [Shields Project](https://github.com/badges/shields), [Simple Icons](https://github.com/simple-icons/simple-icons) & beloved all [Contributors](https://github.com/alexandresanlim/Badges4-README.md-Profile/graphs/contributors). Here is a list of the top 3 contributors of last August, 2022 excluding [Author](https://github.com/alexandresanlim) & [Collaborator](https://github.com/mrhrifat). We do respect & love our all contributors. 
-
-| [<img src="https://github.com/Anmol-Baranwal.png?size=115" width="115"><br><sub>@Anmol-Baranwal</sub>](https://github.com/Anmol-Baranwal) | [<img  src="https://github.com/cfuendesign.png?size=115" width="115"><br><sub>@cfuendesign</sub>](https://github.com/cfuendesign) | [<img  src="https://github.com/Rinnray.png?size=115" width="115"><br><sub>@Rinnray</sub>](https://github.com/Rinnray) |
-| :---------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: |
-
-**Important:** Every month the Contributors list will be updated by observing their contributions.
