@@ -4,8 +4,8 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 <img src="http://web.sbs.ifc.edu.br/~rafael.riegel/SAPU/assets/img/logo.png" width=115><br>
 
 - [Equipe de Desenvolvimento](#creators-)
-
-## Creators [🔝](#welcome-badges-4-readmemd-profile)
+<br><br><br><br><br><br>
+## Equipe de Desenvolvimento [🔝](#welcome-badges-4-readmemd-profile)
 
 [<img src="https://github.com/faelsriegel.png?size=115" width=115><br><sub>@faelsriegel</sub>](https://github.com/faelsriegel)
 
