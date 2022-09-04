@@ -19,7 +19,7 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 
 | Project                                                                                                         | Short description                                                                                                                 |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
- [Holy Al-Quran](https://github.com/mrhrifat/holy-alquran)                                                       | Al-Quran is a Sadaqah Jariyah. It's the holy book of Islam. I hope to make it easy for everyone to read, study, & learn Al-Quran. |
+ [Veja seu progresso, do seu jeito.](https://github.com/mrhrifat/holy-alquran)                                                       | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.  |
 
 | Veja seu progresso, do seu jeito.        | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.                                                                                              |
 | Simplifique o controle e faça mais. | Planeje, acompanhe e gerencie a sua matriz curricular, otimizando o processo.                                                         |
