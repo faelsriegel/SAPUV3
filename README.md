@@ -3,7 +3,6 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 <br><br>
 <img src="http://web.sbs.ifc.edu.br/~rafael.riegel/SAPU/assets/img/logo.png" width=115><br>
 
-- [Equipe de Desenvolvimento](#creators-)
 <br><br><br><br>
 ## Equipe de Desenvolvimento [🔝](#welcome-badges-4-readmemd-profile)
 
@@ -17,7 +16,6 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 
 | Perguntas                                                                                                         | Respostas             |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
- |
  Porque utilizar o SAPU?                                                      | MUniversitária (SAPU) consiste em ser um sistema de cadastro da matriz curricular, com o intuito de ser um meio acessível de gestão e controle das grades das instituições de ensino, para o estudante.   | 
  Veja seu progresso, do seu jeito.                                                      | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.  |
  Simplifique o controle e faça mais.                                                      | Planeje, acompanhe e gerencie a sua matriz curricular, otimizando o processo.  |
@@ -27,12 +25,12 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 
 <h2 align='center'>🔁 Dynamic </h2>
 
-## 📈 Activity Graph [🔝](#welcome-badges-4-readmemd-profile)
+## 📈 Pagina Hospedada [🔝](#welcome-badges-4-readmemd-profile)
 
 | Badge                                                                                                       | URL                                                                            |
 | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| <img width='200' src="https://activity-graph.herokuapp.com/graph?username=alexandresanlim&theme=minimal" /> | `https://activity-graph.herokuapp.com/graph?username={username}&theme=minimal` |
-
+| <img width='200' src="http://web.sbs.ifc.edu.br/~rafael.riegel/SAPU/" /> | `http://web.sbs.ifc.edu.br/~rafael.riegel/SAPU/` |
+ <!--
 ## 💳 Github Profile Summary Card [🔝](#welcome-badges-4-readmemd-profile)
 
 | Badge                                                                                                                                  | URL                                                                                                       |
