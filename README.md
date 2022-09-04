@@ -15,8 +15,10 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 <br><br><br><br>
 ## Objetivos do Projeto
 
-| Porque utilizar o SAPU?                                                                                                         | O Sistema Analítico de Progressão Universitária (SAPU) consiste em ser um sistema de cadastro da matriz curricular, com o intuito de ser um meio acessível de gestão e controle das grades das instituições de ensino, para o estudante.                                                                                                                 |
+| Perguntas                                                                                                         | Respostas             |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+ |
+ Porque utilizar o SAPU?                                                      | MUniversitária (SAPU) consiste em ser um sistema de cadastro da matriz curricular, com o intuito de ser um meio acessível de gestão e controle das grades das instituições de ensino, para o estudante.   | 
  Veja seu progresso, do seu jeito.                                                      | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.  |
  Simplifique o controle e faça mais.                                                      | Planeje, acompanhe e gerencie a sua matriz curricular, otimizando o processo.  |
  Defina metas e as cumpra, mais rapidamente.                                                     | Mantenha-se no caminho certo para atingir seus objetivos com metas para conclusão da disciplina.  |                                                                                            
