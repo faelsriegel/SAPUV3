@@ -9,18 +9,22 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 
 [<img src="https://github.com/faelsriegel.png?size=115" width=115><br><sub>@faelsriegel</sub>](https://github.com/faelsriegel)
 
-[<img src="https://github.com/luizcosta123.png?size=250" width=115><br><sub>@luizcosta123</sub>](https://github.com/luizcosta123) 
-
 [<img src="https://github.com/marcos-mantovani.png?size=250" width=115><br><sub>@marcos-mantovani</sub>](https://github.com/marcos-mantovani) 
 
-## See More Repositories
+[<img src="https://github.com/luizcosta123.png?size=250" width=115><br><sub>@luizcosta123</sub>](https://github.com/luizcosta123) 
+
+
+
+## Porque utilizar o SAPU?
 
 | Project                                                                                                         | Short description                                                                                                                 |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| [Collection.NiceToolsForAppDesign](https://github.com/alexandresanlim/Collection.NiceToolsForAppDesign)         | Nice tools collection for app design                                                                                              |
-| [MobileApp.SimpleLandingPage.Template](https://github.com/alexandresanlim/MobileApp.SimpleLandingPage.Template) | Create a very simple landing page for your mobile app with bootstrap only                                                         |
-| [Web Badge](https://github.com/mrhrifat/web-badge)                                                              | Web Badge will provide Badges, SVG Logo & Hex Color Code to use in GitHub Markdown or Any Web Pages                               |
-| [Holy Al-Quran](https://github.com/mrhrifat/holy-alquran)                                                       | Al-Quran is a Sadaqah Jariyah. It's the holy book of Islam. I hope to make it easy for everyone to read, study, & learn Al-Quran. |
+ [Holy Al-Quran](https://github.com/mrhrifat/holy-alquran)                                                       | Al-Quran is a Sadaqah Jariyah. It's the holy book of Islam. I hope to make it easy for everyone to read, study, & learn Al-Quran. |
+
+| Veja seu progresso, do seu jeito.        | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.                                                                                              |
+| Simplifique o controle e faça mais. | Planeje, acompanhe e gerencie a sua matriz curricular, otimizando o processo.                                                         |
+| Defina metas e as cumpra, mais rapidamente.                                                             |Mantenha-se no caminho certo para atingir seus objetivos com metas para conclusão da disciplina.
+|
 
 <h2 align='center'>🔁 Dynamic </h2>
 
