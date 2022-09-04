@@ -4,7 +4,7 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 <img src="http://web.sbs.ifc.edu.br/~rafael.riegel/SAPU/assets/img/logo.png" width=115><br>
 
 - [Equipe de Desenvolvimento](#creators-)
-<br><br><br><br><br><br>
+<br><br><br><br>
 ## Equipe de Desenvolvimento [🔝](#welcome-badges-4-readmemd-profile)
 
 [<img src="https://github.com/faelsriegel.png?size=115" width=115><br><sub>@faelsriegel</sub>](https://github.com/faelsriegel)
@@ -12,12 +12,12 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 [<img src="https://github.com/marcos-mantovani.png?size=250" width=115><br><sub>@marcos-mantovani</sub>](https://github.com/marcos-mantovani) 
 
 [<img src="https://github.com/luizcosta123.png?size=250" width=115><br><sub>@luizcosta123</sub>](https://github.com/luizcosta123) 
-<br><br><br><br><br><br>
+<br><br><br><br>
 ## Objetivos do Projeto
 
 | Porque utilizar o SAPU?                                                                                                         | O Sistema Analítico de Progressão Universitária (SAPU) consiste em ser um sistema de cadastro da matriz curricular, com o intuito de ser um meio acessível de gestão e controle das grades das instituições de ensino, para o estudante.                                                                                                                 |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
- [Veja seu progresso, do seu jeito.]                                                      | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.  |
+ Veja seu progresso, do seu jeito.                                                      | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.  |
 
 | Veja seu progresso, do seu jeito.        | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.                                                                                              |
 | Simplifique o controle e faça mais. | Planeje, acompanhe e gerencie a sua matriz curricular, otimizando o processo.                                                         |
