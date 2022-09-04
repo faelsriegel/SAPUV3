@@ -7,11 +7,11 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 
 ## Creators [🔝](#welcome-badges-4-readmemd-profile)
 
-[<img src="https://github.com/faelsriegel.png?size=115" width=115><br><sub>@faelsriegel</sub>](https://github.com/faelsriegel) <br>Author
+[<img src="https://github.com/faelsriegel.png?size=115" width=115><br><sub>@faelsriegel</sub>](https://github.com/faelsriegel)
 
-[<img src="https://github.com/luizcosta123.png?size=250" width=115><br><sub>@luizcosta123</sub>](https://github.com/luizcosta123) <br>Collaborator  
+[<img src="https://github.com/luizcosta123.png?size=250" width=115><br><sub>@luizcosta123</sub>](https://github.com/luizcosta123) 
 
-[<img src="https://github.com/marcos-mantovani.png?size=250" width=115><br><sub>@marcos-mantovani</sub>](https://github.com/marcos-mantovani) <br>Collaborator 
+[<img src="https://github.com/marcos-mantovani.png?size=250" width=115><br><sub>@marcos-mantovani</sub>](https://github.com/marcos-mantovani) 
 
 ## See More Repositories
 
