@@ -16,7 +16,7 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 
 | Perguntas                                                                                                         | Respostas             |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
- Porque utilizar o SAPU?                                                      | MUniversitária (SAPU) consiste em ser um sistema de cadastro da matriz curricular, com o intuito de ser um meio acessível de gestão e controle das grades das instituições de ensino, para o estudante.   | 
+ Porque utilizar o SAPU?                                                      | Universitária (SAPU) consiste em ser um sistema de cadastro da matriz curricular, com o intuito de ser um meio acessível de gestão e controle das grades das instituições de ensino, para o estudante.   | 
  Veja seu progresso, do seu jeito.                                                      | Enfrente a grade, com a opção de exportar as disciplinas que se adaptam às suas necessidades.  |
  Simplifique o controle e faça mais.                                                      | Planeje, acompanhe e gerencie a sua matriz curricular, otimizando o processo.  |
  Defina metas e as cumpra, mais rapidamente.                                                     | Mantenha-se no caminho certo para atingir seus objetivos com metas para conclusão da disciplina.  |                                                                                            
@@ -29,7 +29,7 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 
 | Badge                                                                                                       | URL                                                                            |
 | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| <img width='200' src="http://web.sbs.ifc.edu.br/~rafael.riegel/SAPU/" /> | `http://web.sbs.ifc.edu.br/~rafael.riegel/SAPU/` |
+| <img width='200' src="http://web.sbs.ifc.edu.br/~rafael.riegel" /> | `http://web.sbs.ifc.edu.br/~rafael.riegel` |
  <!--
 ## 💳 Github Profile Summary Card [🔝](#welcome-badges-4-readmemd-profile)
 
