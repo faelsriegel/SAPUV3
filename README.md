@@ -8,7 +8,7 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 
 [<img src="https://github.com/faelsriegel.png?size=115" width=115><br><sub>@faelsriegel</sub>](https://github.com/faelsriegel)
 
-<br><br><br><br>
+<br><br>
 ## Objetivos do Projeto
 
 | Perguntas                                                                                                         | Respostas             |
@@ -18,7 +18,7 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
  Simplifique o controle e faça mais.                                                      | Planeje, acompanhe e gerencie a sua matriz curricular, otimizando o processo.  |
  Defina metas e as cumpra, mais rapidamente.                                                     | Mantenha-se no caminho certo para atingir seus objetivos com metas para conclusão da disciplina.  |                                                                                            
 
-<br><br><br><br>
+<br><br>
 
 <h2 align='center'>🔁 Dynamic </h2>
 
