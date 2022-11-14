@@ -8,9 +8,6 @@ O sistema web SAPU (Sistema Analítico de Progressão Universitária), consiste 
 
 [<img src="https://github.com/faelsriegel.png?size=115" width=115><br><sub>@faelsriegel</sub>](https://github.com/faelsriegel)
 
-[<img src="https://github.com/marcos-mantovani.png?size=250" width=115><br><sub>@marcos-mantovani</sub>](https://github.com/marcos-mantovani) 
-
-[<img src="https://github.com/luizcosta123.png?size=250" width=115><br><sub>@luizcosta123</sub>](https://github.com/luizcosta123) 
 <br><br><br><br>
 ## Objetivos do Projeto
 
